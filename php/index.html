@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>Saludo</span>
+    <br>
+    <form action="/php/Edad.php" method="post">
+        <span>¿Cual es tu nombre?</span>
+        <br>
+        <input type="text" name="nombre">
+        <button type="submit">Enviar</button>        
+    </form>
+    <br>
+    <br>
+    <span>Validacion de edad para conducir</span>
+    <br>
+    <form action="/php/Edad.php" method="post">
+        <span>¿Cual es la edad?</span>
+        <br>
+        <input type="text" name="edad">
+        <button type="submit">Enviar</button>        
+    </form>
+    <br>
+    <br>
+    <span>Categorias de calificaciones</span>
+    <br>
+    <form action="/php/categoria.php" method="post">
+        <span>¿Cual es la calificacion?</span>
+        <br>
+        <input type="text" name="calificacionCategoria">
+        <button type="submit">Enviar</button>        
+    </form>
+    <br>
+    <br>
+    <span>Promedio de calificaciones:</span><br>
+    <br>
+    <form action="/php/promedio.php" method="post">
+        <span>Ingrese las calificaciones separadas por comas a execpcion de la ultima coma:</span>
+        <br>
+        <span>Calificaciones:</span><input type="text" name="cal"><br>    
+        <button type="submit">Enviar</button>        
+    </form>
+    <br>
+    <br>
+    <span>Fibbonachi</span>
+    <br>
+    <form action="/php/fibo.php" method="post">
+        <span>¿Cuantas posiciones desea vizualizar?</span>
+        <br>
+        <input type="text" name="meta">
+        <button type="submit">Enviar</button>        
+    </form>
+    <br>
+    <br>
+</body>
+</html>
